@@ -100,16 +100,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"⭕ Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("⏪ 𝖡𝖠𝖢𝖪", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"⭕ Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
         btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("⏪ 𝖡𝖠𝖢𝖪", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝖭𝖤𝖷𝖳 ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -335,7 +335,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Bruda I Like Your Smartness, But Don't Be Oversmart 😎",show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😎",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files = (await get_file_details(file_id))[0]
@@ -361,13 +361,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/EvaMariaBot?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/Doggy_DonV2_Bot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
+            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🎸 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
             ],[
-            InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('📌 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -377,14 +377,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🙂 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('🍁 ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('✨ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('🖇️ Connection', callback_data='coct'),
-            InlineKeyboardButton('🔰Exᴛʀᴀ Mᴏᴅs🔰', callback_data='extra')
+            InlineKeyboardButton('🌸 ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
+            InlineKeyboardButton('⚡ ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra')
             ],[
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🤫 Sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🔱 sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -394,11 +394,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP'),
-            InlineKeyboardButton('💜 Sᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('🎸 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP'),
+            InlineKeyboardButton('🪄 sᴏᴜʀᴄᴇ', callback_data='source')
             ],[
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='help'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

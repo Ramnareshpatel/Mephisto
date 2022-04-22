@@ -57,7 +57,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"Bruda Here Is All Files 😎 - {total}"
+        switch_pm_text = f"Here Is All Files 😎 - {total}"
         if string:
             switch_pm_text += f" For {string}"
         try:
@@ -74,7 +74,7 @@ async def answer(bot, query):
                            switch_pm_text=str(e)[:63],
                            switch_pm_parameter="error")
     else:
-        switch_pm_text = f'He He Bruda No Results 🤓'
+        switch_pm_text = f'He He No Results 🤓'
         if string:
             switch_pm_text += f' For "{string}"'
 
@@ -88,7 +88,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('♻️ Sᴇᴀʀᴄʜ Aɢᴀɪɴ ♻️', switch_inline_query_current_chat=query)
+            InlineKeyboardButton('♻️ sᴇᴀʀᴄʜ ᴀɢᴀɪɴ ♻️', switch_inline_query_current_chat=query)
         ]
         ]
     return InlineKeyboardMarkup(buttons)

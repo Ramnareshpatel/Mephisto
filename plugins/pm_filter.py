@@ -177,7 +177,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
+                await query.answer("This is not for you, man😏",show_alert=True)
 
 
     elif "groupcb" in query.data:
@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/Doggy_DonV2_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎸 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
+            InlineKeyboardButton('🎸 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Movies4youBackup')
             ],[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📌 ᴀʙᴏᴜᴛ', callback_data='about')

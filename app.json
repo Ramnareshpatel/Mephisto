@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/Judson-web/Mephisto",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "repository": "https://github.com/Ramnareshpatel/Mephisto",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",

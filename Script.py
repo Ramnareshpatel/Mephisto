@@ -1,27 +1,27 @@
 class script(object):
-    START_TXT = """Hᴇʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😈"""
+    START_TXT = """Hᴇʟʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href='http://t.me/http://t.me/Doggy_DonV2_Bot'>𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😈"""
     HELP_TXT = """Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
-    ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ: Mᴇᴘʜɪsᴛᴏ
-✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
+    ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ: 𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/KingOf_univers>會؄𝚂𝚄𝚁𝙰𝙹؄會</a>
 ✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
 ✯ Dᴀᴛᴀ Bᴀsᴇ: ᴍᴏɴɢᴏ ᴅʙ
 ✯ ⲂⲞⲦ SᴇʀᴠᴇʀꞄ: Hᴇʀᴏᴋᴜ
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v1.0.1 [ Bᴇᴛᴀ ]"""
-    SOURCE_TXT = """<b>ᴺᴼᵀᴱ:</b>
-- <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a> Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
-- Sᴏᴜʀᴄᴇ - <a href='https://github.com/Judson-web/Mephisto'>Cʟɪᴄᴋ Mᴇ</a>
+    SOURCE_TXT = """<b>Nᴏᴛᴇ:</b>
+- <a href='http://t.me/http://t.me/Doggy_DonV2_Bot'>𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇</a> Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
+- Sᴏᴜʀᴄᴇ - <a href='https://github.com/EvamariaTG/EvaMaria'>Cʟɪᴄᴋ Mᴇ</a>
 
 <b>Dᴇᴠs:</b>
-- <a href=https://t.me/STMbOTsUPPORTgROUP>Tᴇᴀᴍ Mᴇᴘʜɪsᴛᴏ</a>"""
+- <a href=https://t.me/Movies4youBackup>Tᴇᴀᴍ Mᴏᴠɪᴇs𝟺ʏᴏᴜBᴀᴄᴋᴜᴘ 💕</a>"""
     MANUELFILTER_TXT = """Hᴇʟᴘ: <b>Fɪʟᴛᴇʀs</b>
 
-- Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a> ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
+- Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ <a href='http://t.me/http://t.me/Doggy_DonV2_Bot'>𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇</a> ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
 
 <b>NOTE:</b>
-1. ᴇᴠᴀ ᴍᴀʀɪᴀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+1. 𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇 sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 2. ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ.
 3. ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴs ʜᴀᴠᴇ ᴀ ʟɪᴍɪᴛ ᴏғ 64 ᴄʜᴀʀᴀᴄᴛᴇʀs.
 
@@ -32,7 +32,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
     BUTTON_TXT = """Hᴇʟᴘ: <b>Bᴜᴛᴛᴏɴs</b>
 
-- Mᴇᴘʜɪsᴛᴏ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
+- 𝖣𝗈𝗀𝗀𝗒 𝖣𝗈𝗇 Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
 
 <b>NOTE:</b>
 1. Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ.
@@ -40,7 +40,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
 3. Bᴜᴛᴛᴏɴs sʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀsᴇᴅ ᴀs ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ
 
 <b>URL Bᴜᴛᴛᴏɴs:</b>
-<code>[Bᴜᴛᴛᴏɴ Tᴇxᴛ](buttonurl:https//t.me/Mephistov3_bot)</code>
+<code>[Bᴜᴛᴛᴏɴ Tᴇxᴛ](buttonurl:http://t.me/http://t.me/Doggy_DonV2_Bot)</code>
 
 <b>Aʟᴇʀᴛ ʙᴜᴛᴛᴏɴs:</b>
 <code>[Bᴜᴛᴛᴏɴ Tᴇxᴛ](buttonalert:This is an alert message)</code>"""
